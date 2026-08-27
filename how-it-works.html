@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How It Works | SmileArc Aligners</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta name="description" content="See exactly how SmileArc clear aligners work — from telling us your smile goal to your last retainer check-in.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="css/style.css">
+<script>(function(){try{var t=localStorage.getItem('sa-theme');var dark=t?t==='dark':(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);if(t==='dark'||t==='light'){document.documentElement.setAttribute('data-theme',t);}if(dark){document.documentElement.classList.add('theme-dark');}}catch(e){}})();</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand"><span class="mark"><img src="data:image/png;base64,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" alt="SmileArc tooth logo" width="26" height="26"></span>Smile<span class="arc">Arc</span></a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="nav-cta">Get Started</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" data-search-open aria-label="Search">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <button class="icon-btn theme-toggle" data-theme-toggle aria-label="Toggle dark mode">
+        <svg class="icon-sun" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+      </button>
+      <a href="contact.html" class="btn btn-primary">Get Started</a>
+      <button class="icon-btn hamburger" aria-label="Menu">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="search-overlay">
+  <div class="search-panel">
+    <div class="search-field">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" placeholder="Search pricing, how it works, contact…" autocomplete="off">
+      <span class="search-close">✕</span>
+    </div>
+    <div class="search-results"></div>
+  </div>
+</div>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / <b>How It Works</b></div>
+      <h1>From First Scan To Final Smile — Here's The Whole Process</h1>
+      <p class="lede">SmileArc pairs an easy, at-home experience with real oversight from US-licensed orthodontists at every stage. Here's exactly what to expect.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container center" style="margin-bottom:40px;">
+      <div class="eyebrow">Before You Start</div>
+      <h2>What Can SmileArc Aligners Fix?</h2>
+      <p class="lede" style="margin:0 auto;">Your call with our team will confirm your specific case, but these are the alignment issues SmileArc treats most often.</p>
+    </div>
+    <div class="container grid-3">
+      <div class="card center">
+        <img fetchpriority="high" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20160%20120%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22tg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e9e4da%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22gg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f2b4ac%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e08a83%22/%3E%3C/linearGradient%3E%3C/defs%3E%0A%3Crect%20width%3D%22160%22%20height%3D%22120%22%20rx%3D%2218%22%20fill%3D%22%23fbfaf8%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2210%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2294%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Cpath%20d%3D%22M19.2%2C26.0%20L19.2%2C38.5%20Q19.2%2C44.0%2024.7%2C44.0%20L29.7%2C44.0%20Q35.2%2C44.0%2035.2%2C38.5%20L35.2%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M36.8%2C26.0%20L36.8%2C46.3%20Q36.8%2C51.8%2042.3%2C51.8%20L47.3%2C51.8%20Q52.8%2C51.8%2052.8%2C46.3%20L52.8%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M54.4%2C26.0%20L54.4%2C50.9%20Q54.4%2C56.4%2059.9%2C56.4%20L64.9%2C56.4%20Q70.4%2C56.4%2070.4%2C50.9%20L70.4%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M72.0%2C26.0%20L72.0%2C52.5%20Q72.0%2C58.0%2077.5%2C58.0%20L82.5%2C58.0%20Q88.0%2C58.0%2088.0%2C52.5%20L88.0%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M89.6%2C26.0%20L89.6%2C50.9%20Q89.6%2C56.4%2095.1%2C56.4%20L100.1%2C56.4%20Q105.6%2C56.4%20105.6%2C50.9%20L105.6%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M107.2%2C26.0%20L107.2%2C46.3%20Q107.2%2C51.8%20112.7%2C51.8%20L117.7%2C51.8%20Q123.2%2C51.8%20123.2%2C46.3%20L123.2%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M124.8%2C26.0%20L124.8%2C38.5%20Q124.8%2C44.0%20130.3%2C44.0%20L135.3%2C44.0%20Q140.8%2C44.0%20140.8%2C38.5%20L140.8%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3Cpath%20d%3D%22M19.2%2C116.0%20L19.2%2C85.5%20Q19.2%2C80.0%2024.7%2C80.0%20L29.7%2C80.0%20Q35.2%2C80.0%2035.2%2C85.5%20L35.2%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M36.8%2C116.0%20L36.8%2C77.7%20Q36.8%2C72.2%2042.3%2C72.2%20L47.3%2C72.2%20Q52.8%2C72.2%2052.8%2C77.7%20L52.8%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M54.4%2C116.0%20L54.4%2C73.1%20Q54.4%2C67.6%2059.9%2C67.6%20L64.9%2C67.6%20Q70.4%2C67.6%2070.4%2C73.1%20L70.4%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M72.0%2C116.0%20L72.0%2C71.5%20Q72.0%2C66.0%2077.5%2C66.0%20L82.5%2C66.0%20Q88.0%2C66.0%2088.0%2C71.5%20L88.0%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M89.6%2C116.0%20L89.6%2C73.1%20Q89.6%2C67.6%2095.1%2C67.6%20L100.1%2C67.6%20Q105.6%2C67.6%20105.6%2C73.1%20L105.6%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M107.2%2C116.0%20L107.2%2C77.7%20Q107.2%2C72.2%20112.7%2C72.2%20L117.7%2C72.2%20Q123.2%2C72.2%20123.2%2C77.7%20L123.2%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M124.8%2C116.0%20L124.8%2C85.5%20Q124.8%2C80.0%20130.3%2C80.0%20L135.3%2C80.0%20Q140.8%2C80.0%20140.8%2C85.5%20L140.8%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3C/svg%3E" alt="Underbite tooth alignment" style="width:100%;max-width:150px;margin:0 auto 18px;border-radius:14px;border:1px solid var(--border);">
+        <h3>Underbite</h3>
+        <p>Your lower front teeth sit further forward than your upper front teeth when you bite down.</p>
+      </div>
+      <div class="card center">
+        <img loading="lazy" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20160%20120%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22tg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e9e4da%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22gg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f2b4ac%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e08a83%22/%3E%3C/linearGradient%3E%3C/defs%3E%0A%3Crect%20width%3D%22160%22%20height%3D%22120%22%20rx%3D%2218%22%20fill%3D%22%23fbfaf8%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2210%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2294%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Cpath%20d%3D%22M14.2%2C26.0%20L14.2%2C38.5%20Q14.2%2C44.0%2019.7%2C44.0%20L24.7%2C44.0%20Q30.2%2C44.0%2030.2%2C38.5%20L30.2%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M31.8%2C26.0%20L31.8%2C46.3%20Q31.8%2C51.8%2037.3%2C51.8%20L42.3%2C51.8%20Q47.8%2C51.8%2047.8%2C46.3%20L47.8%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M49.4%2C26.0%20L49.4%2C50.9%20Q49.4%2C56.4%2054.9%2C56.4%20L59.9%2C56.4%20Q65.4%2C56.4%2065.4%2C50.9%20L65.4%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M67.0%2C26.0%20L67.0%2C52.5%20Q67.0%2C58.0%2072.5%2C58.0%20L77.5%2C58.0%20Q83.0%2C58.0%2083.0%2C52.5%20L83.0%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M94.6%2C26.0%20L94.6%2C50.9%20Q94.6%2C56.4%20100.1%2C56.4%20L105.1%2C56.4%20Q110.6%2C56.4%20110.6%2C50.9%20L110.6%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M112.2%2C26.0%20L112.2%2C46.3%20Q112.2%2C51.8%20117.7%2C51.8%20L122.7%2C51.8%20Q128.2%2C51.8%20128.2%2C46.3%20L128.2%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M129.8%2C26.0%20L129.8%2C38.5%20Q129.8%2C44.0%20135.3%2C44.0%20L140.3%2C44.0%20Q145.8%2C44.0%20145.8%2C38.5%20L145.8%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3Cpath%20d%3D%22M14.2%2C116.0%20L14.2%2C103.5%20Q14.2%2C98.0%2019.7%2C98.0%20L24.7%2C98.0%20Q30.2%2C98.0%2030.2%2C103.5%20L30.2%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M31.8%2C116.0%20L31.8%2C99.1%20Q31.8%2C93.6%2037.3%2C93.6%20L42.3%2C93.6%20Q47.8%2C93.6%2047.8%2C99.1%20L47.8%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M49.4%2C116.0%20L49.4%2C96.4%20Q49.4%2C90.9%2054.9%2C90.9%20L59.9%2C90.9%20Q65.4%2C90.9%2065.4%2C96.4%20L65.4%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M67.0%2C116.0%20L67.0%2C95.5%20Q67.0%2C90.0%2072.5%2C90.0%20L77.5%2C90.0%20Q83.0%2C90.0%2083.0%2C95.5%20L83.0%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M94.6%2C116.0%20L94.6%2C96.4%20Q94.6%2C90.9%20100.1%2C90.9%20L105.1%2C90.9%20Q110.6%2C90.9%20110.6%2C96.4%20L110.6%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M112.2%2C116.0%20L112.2%2C99.1%20Q112.2%2C93.6%20117.7%2C93.6%20L122.7%2C93.6%20Q128.2%2C93.6%20128.2%2C99.1%20L128.2%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M129.8%2C116.0%20L129.8%2C103.5%20Q129.8%2C98.0%20135.3%2C98.0%20L140.3%2C98.0%20Q145.8%2C98.0%20145.8%2C103.5%20L145.8%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3C/svg%3E" alt="Gap teeth tooth alignment" style="width:100%;max-width:150px;margin:0 auto 18px;border-radius:14px;border:1px solid var(--border);">
+        <h3>Gap Teeth</h3>
+        <p>Noticeable spacing between two or more teeth, most often between the upper front teeth.</p>
+      </div>
+      <div class="card center">
+        <img loading="lazy" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20160%20120%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22tg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e9e4da%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22gg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f2b4ac%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e08a83%22/%3E%3C/linearGradient%3E%3C/defs%3E%0A%3Crect%20width%3D%22160%22%20height%3D%22120%22%20rx%3D%2218%22%20fill%3D%22%23fbfaf8%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2210%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2294%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Cpath%20d%3D%22M19.2%2C26.0%20L19.2%2C52.5%20Q19.2%2C58.0%2024.7%2C58.0%20L29.7%2C58.0%20Q35.2%2C58.0%2035.2%2C52.5%20L35.2%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M36.8%2C26.0%20L36.8%2C42.5%20Q36.8%2C48.0%2042.3%2C48.0%20L47.3%2C48.0%20Q52.8%2C48.0%2052.8%2C42.5%20L52.8%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M54.4%2C26.0%20L54.4%2C36.5%20Q54.4%2C42.0%2059.9%2C42.0%20L64.9%2C42.0%20Q70.4%2C42.0%2070.4%2C36.5%20L70.4%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M72.0%2C26.0%20L72.0%2C34.5%20Q72.0%2C40.0%2077.5%2C40.0%20L82.5%2C40.0%20Q88.0%2C40.0%2088.0%2C34.5%20L88.0%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M89.6%2C26.0%20L89.6%2C36.5%20Q89.6%2C42.0%2095.1%2C42.0%20L100.1%2C42.0%20Q105.6%2C42.0%20105.6%2C36.5%20L105.6%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M107.2%2C26.0%20L107.2%2C42.5%20Q107.2%2C48.0%20112.7%2C48.0%20L117.7%2C48.0%20Q123.2%2C48.0%20123.2%2C42.5%20L123.2%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M124.8%2C26.0%20L124.8%2C52.5%20Q124.8%2C58.0%20130.3%2C58.0%20L135.3%2C58.0%20Q140.8%2C58.0%20140.8%2C52.5%20L140.8%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3Cpath%20d%3D%22M19.2%2C116.0%20L19.2%2C89.5%20Q19.2%2C84.0%2024.7%2C84.0%20L29.7%2C84.0%20Q35.2%2C84.0%2035.2%2C89.5%20L35.2%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M36.8%2C116.0%20L36.8%2C99.5%20Q36.8%2C94.0%2042.3%2C94.0%20L47.3%2C94.0%20Q52.8%2C94.0%2052.8%2C99.5%20L52.8%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M54.4%2C116.0%20L54.4%2C105.5%20Q54.4%2C100.0%2059.9%2C100.0%20L64.9%2C100.0%20Q70.4%2C100.0%2070.4%2C105.5%20L70.4%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M72.0%2C116.0%20L72.0%2C107.5%20Q72.0%2C102.0%2077.5%2C102.0%20L82.5%2C102.0%20Q88.0%2C102.0%2088.0%2C107.5%20L88.0%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M89.6%2C116.0%20L89.6%2C105.5%20Q89.6%2C100.0%2095.1%2C100.0%20L100.1%2C100.0%20Q105.6%2C100.0%20105.6%2C105.5%20L105.6%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M107.2%2C116.0%20L107.2%2C99.5%20Q107.2%2C94.0%20112.7%2C94.0%20L117.7%2C94.0%20Q123.2%2C94.0%20123.2%2C99.5%20L123.2%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M124.8%2C116.0%20L124.8%2C89.5%20Q124.8%2C84.0%20130.3%2C84.0%20L135.3%2C84.0%20Q140.8%2C84.0%20140.8%2C89.5%20L140.8%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3C/svg%3E" alt="Open bite tooth alignment" style="width:100%;max-width:150px;margin:0 auto 18px;border-radius:14px;border:1px solid var(--border);">
+        <h3>Open Bite</h3>
+        <p>Your upper and lower front teeth don't touch at all when your back teeth are closed together.</p>
+      </div>
+      <div class="card center">
+        <img loading="lazy" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20160%20120%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22tg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e9e4da%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22gg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f2b4ac%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e08a83%22/%3E%3C/linearGradient%3E%3C/defs%3E%0A%3Crect%20width%3D%22160%22%20height%3D%22120%22%20rx%3D%2218%22%20fill%3D%22%23fbfaf8%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2210%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2294%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Cpath%20d%3D%22M31.0%2C26.0%20L31.0%2C38.5%20Q31.0%2C44.0%2036.5%2C44.0%20L42.5%2C44.0%20Q48.0%2C44.0%2048.0%2C38.5%20L48.0%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M44.5%2C26.0%20L44.5%2C45.2%20Q44.5%2C50.7%2050.0%2C50.7%20L56.0%2C50.7%20Q61.5%2C50.7%2061.5%2C45.2%20L61.5%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M58.0%2C26.0%20L58.0%2C49.2%20Q58.0%2C54.7%2063.5%2C54.7%20L69.5%2C54.7%20Q75.0%2C54.7%2075.0%2C49.2%20L75.0%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22%20transform%3D%22rotate%2813%2066.5%2026.0%29%22/%3E%3Cpath%20d%3D%22M71.5%2C26.0%20L71.5%2C50.5%20Q71.5%2C56.0%2077.0%2C56.0%20L83.0%2C56.0%20Q88.5%2C56.0%2088.5%2C50.5%20L88.5%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22%20transform%3D%22rotate%28-9%2080.0%2026.0%29%22/%3E%3Cpath%20d%3D%22M85.0%2C26.0%20L85.0%2C49.2%20Q85.0%2C54.7%2090.5%2C54.7%20L96.5%2C54.7%20Q102.0%2C54.7%20102.0%2C49.2%20L102.0%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M98.5%2C26.0%20L98.5%2C45.2%20Q98.5%2C50.7%20104.0%2C50.7%20L110.0%2C50.7%20Q115.5%2C50.7%20115.5%2C45.2%20L115.5%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22%20transform%3D%22rotate%28-12%20107.0%2026.0%29%22/%3E%3Cpath%20d%3D%22M112.0%2C26.0%20L112.0%2C38.5%20Q112.0%2C44.0%20117.5%2C44.0%20L123.5%2C44.0%20Q129.0%2C44.0%20129.0%2C38.5%20L129.0%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3Cpath%20d%3D%22M31.0%2C116.0%20L31.0%2C103.5%20Q31.0%2C98.0%2036.5%2C98.0%20L42.5%2C98.0%20Q48.0%2C98.0%2048.0%2C103.5%20L48.0%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M44.5%2C116.0%20L44.5%2C99.1%20Q44.5%2C93.6%2050.0%2C93.6%20L56.0%2C93.6%20Q61.5%2C93.6%2061.5%2C99.1%20L61.5%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M58.0%2C116.0%20L58.0%2C96.4%20Q58.0%2C90.9%2063.5%2C90.9%20L69.5%2C90.9%20Q75.0%2C90.9%2075.0%2C96.4%20L75.0%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M71.5%2C116.0%20L71.5%2C95.5%20Q71.5%2C90.0%2077.0%2C90.0%20L83.0%2C90.0%20Q88.5%2C90.0%2088.5%2C95.5%20L88.5%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M85.0%2C116.0%20L85.0%2C96.4%20Q85.0%2C90.9%2090.5%2C90.9%20L96.5%2C90.9%20Q102.0%2C90.9%20102.0%2C96.4%20L102.0%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M98.5%2C116.0%20L98.5%2C99.1%20Q98.5%2C93.6%20104.0%2C93.6%20L110.0%2C93.6%20Q115.5%2C93.6%20115.5%2C99.1%20L115.5%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M112.0%2C116.0%20L112.0%2C103.5%20Q112.0%2C98.0%20117.5%2C98.0%20L123.5%2C98.0%20Q129.0%2C98.0%20129.0%2C103.5%20L129.0%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3C/svg%3E" alt="Crowded teeth tooth alignment" style="width:100%;max-width:150px;margin:0 auto 18px;border-radius:14px;border:1px solid var(--border);">
+        <h3>Crowded Teeth</h3>
+        <p>Teeth that overlap, twist, or bunch up because there isn't quite enough room along the jaw.</p>
+      </div>
+      <div class="card center">
+        <img loading="lazy" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20160%20120%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22tg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e9e4da%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22gg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f2b4ac%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e08a83%22/%3E%3C/linearGradient%3E%3C/defs%3E%0A%3Crect%20width%3D%22160%22%20height%3D%22120%22%20rx%3D%2218%22%20fill%3D%22%23fbfaf8%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2210%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2294%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Cpath%20d%3D%22M19.2%2C26.0%20L19.2%2C38.5%20Q19.2%2C44.0%2024.7%2C44.0%20L29.7%2C44.0%20Q35.2%2C44.0%2035.2%2C38.5%20L35.2%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M36.8%2C26.0%20L36.8%2C31.4%20Q36.8%2C35.8%2041.2%2C35.8%20L48.4%2C35.8%20Q52.8%2C35.8%2052.8%2C31.4%20L52.8%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M54.4%2C26.0%20L54.4%2C34.9%20Q54.4%2C40.4%2059.9%2C40.4%20L64.9%2C40.4%20Q70.4%2C40.4%2070.4%2C34.9%20L70.4%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M72.0%2C26.0%20L72.0%2C52.5%20Q72.0%2C58.0%2077.5%2C58.0%20L82.5%2C58.0%20Q88.0%2C58.0%2088.0%2C52.5%20L88.0%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M89.6%2C26.0%20L89.6%2C50.9%20Q89.6%2C56.4%2095.1%2C56.4%20L100.1%2C56.4%20Q105.6%2C56.4%20105.6%2C50.9%20L105.6%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M107.2%2C26.0%20L107.2%2C46.3%20Q107.2%2C51.8%20112.7%2C51.8%20L117.7%2C51.8%20Q123.2%2C51.8%20123.2%2C46.3%20L123.2%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M124.8%2C26.0%20L124.8%2C38.5%20Q124.8%2C44.0%20130.3%2C44.0%20L135.3%2C44.0%20Q140.8%2C44.0%20140.8%2C38.5%20L140.8%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3Cpath%20d%3D%22M19.2%2C116.0%20L19.2%2C103.5%20Q19.2%2C98.0%2024.7%2C98.0%20L29.7%2C98.0%20Q35.2%2C98.0%2035.2%2C103.5%20L35.2%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M36.8%2C116.0%20L36.8%2C79.7%20Q36.8%2C74.2%2042.3%2C74.2%20L47.3%2C74.2%20Q52.8%2C74.2%2052.8%2C79.7%20L52.8%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M54.4%2C116.0%20L54.4%2C75.1%20Q54.4%2C69.6%2059.9%2C69.6%20L64.9%2C69.6%20Q70.4%2C69.6%2070.4%2C75.1%20L70.4%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M72.0%2C116.0%20L72.0%2C89.5%20Q72.0%2C84.0%2077.5%2C84.0%20L82.5%2C84.0%20Q88.0%2C84.0%2088.0%2C89.5%20L88.0%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M89.6%2C116.0%20L89.6%2C91.1%20Q89.6%2C85.6%2095.1%2C85.6%20L100.1%2C85.6%20Q105.6%2C85.6%20105.6%2C91.1%20L105.6%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M107.2%2C116.0%20L107.2%2C95.7%20Q107.2%2C90.2%20112.7%2C90.2%20L117.7%2C90.2%20Q123.2%2C90.2%20123.2%2C95.7%20L123.2%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M124.8%2C116.0%20L124.8%2C103.5%20Q124.8%2C98.0%20130.3%2C98.0%20L135.3%2C98.0%20Q140.8%2C98.0%20140.8%2C103.5%20L140.8%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3C/svg%3E" alt="Crossbite tooth alignment" style="width:100%;max-width:150px;margin:0 auto 18px;border-radius:14px;border:1px solid var(--border);">
+        <h3>Crossbite</h3>
+        <p>One or more upper teeth sit inside your lower teeth instead of outside them when you bite down.</p>
+      </div>
+      <div class="card center">
+        <img loading="lazy" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20160%20120%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22tg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e9e4da%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22gg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f2b4ac%22/%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23e08a83%22/%3E%3C/linearGradient%3E%3C/defs%3E%0A%3Crect%20width%3D%22160%22%20height%3D%22120%22%20rx%3D%2218%22%20fill%3D%22%23fbfaf8%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2210%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Crect%20x%3D%226%22%20y%3D%2294%22%20width%3D%22148%22%20height%3D%2216%22%20rx%3D%226%22%20fill%3D%22url%28%23gg%29%22/%3E%0A%3Cpath%20d%3D%22M19.2%2C26.0%20L19.2%2C62.5%20Q19.2%2C68.0%2024.7%2C68.0%20L29.7%2C68.0%20Q35.2%2C68.0%2035.2%2C62.5%20L35.2%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M36.8%2C26.0%20L36.8%2C69.2%20Q36.8%2C74.7%2042.3%2C74.7%20L47.3%2C74.7%20Q52.8%2C74.7%2052.8%2C69.2%20L52.8%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M54.4%2C26.0%20L54.4%2C73.2%20Q54.4%2C78.7%2059.9%2C78.7%20L64.9%2C78.7%20Q70.4%2C78.7%2070.4%2C73.2%20L70.4%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M72.0%2C26.0%20L72.0%2C74.5%20Q72.0%2C80.0%2077.5%2C80.0%20L82.5%2C80.0%20Q88.0%2C80.0%2088.0%2C74.5%20L88.0%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M89.6%2C26.0%20L89.6%2C73.2%20Q89.6%2C78.7%2095.1%2C78.7%20L100.1%2C78.7%20Q105.6%2C78.7%20105.6%2C73.2%20L105.6%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M107.2%2C26.0%20L107.2%2C69.2%20Q107.2%2C74.7%20112.7%2C74.7%20L117.7%2C74.7%20Q123.2%2C74.7%20123.2%2C69.2%20L123.2%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M124.8%2C26.0%20L124.8%2C62.5%20Q124.8%2C68.0%20130.3%2C68.0%20L135.3%2C68.0%20Q140.8%2C68.0%20140.8%2C62.5%20L140.8%2C26.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3Cpath%20d%3D%22M19.2%2C116.0%20L19.2%2C103.5%20Q19.2%2C98.0%2024.7%2C98.0%20L29.7%2C98.0%20Q35.2%2C98.0%2035.2%2C103.5%20L35.2%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M36.8%2C116.0%20L36.8%2C100.2%20Q36.8%2C94.7%2042.3%2C94.7%20L47.3%2C94.7%20Q52.8%2C94.7%2052.8%2C100.2%20L52.8%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M54.4%2C116.0%20L54.4%2C98.2%20Q54.4%2C92.7%2059.9%2C92.7%20L64.9%2C92.7%20Q70.4%2C92.7%2070.4%2C98.2%20L70.4%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M72.0%2C116.0%20L72.0%2C97.5%20Q72.0%2C92.0%2077.5%2C92.0%20L82.5%2C92.0%20Q88.0%2C92.0%2088.0%2C97.5%20L88.0%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M89.6%2C116.0%20L89.6%2C98.2%20Q89.6%2C92.7%2095.1%2C92.7%20L100.1%2C92.7%20Q105.6%2C92.7%20105.6%2C98.2%20L105.6%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M107.2%2C116.0%20L107.2%2C100.2%20Q107.2%2C94.7%20112.7%2C94.7%20L117.7%2C94.7%20Q123.2%2C94.7%20123.2%2C100.2%20L123.2%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%3Cpath%20d%3D%22M124.8%2C116.0%20L124.8%2C103.5%20Q124.8%2C98.0%20130.3%2C98.0%20L135.3%2C98.0%20Q140.8%2C98.0%20140.8%2C103.5%20L140.8%2C116.0%20Z%22%20fill%3D%22url%28%23tg%29%22%20stroke%3D%22%23c7beae%22%20stroke-width%3D%221.4%22%20stroke-linejoin%3D%22round%22/%3E%0A%3C/svg%3E" alt="Overbite tooth alignment" style="width:100%;max-width:150px;margin:0 auto 18px;border-radius:14px;border:1px solid var(--border);">
+        <h3>Overbite</h3>
+        <p>Your upper front teeth extend noticeably further forward than your lower front teeth.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="start">
+    <div class="container" style="max-width:680px;margin:0 auto;">
+      <div class="eyebrow">Step 1</div>
+      <h2>Tell Us About Your Smile</h2>
+      <p>Tell us which type of smile issue you're dealing with and the best way to reach you. That's it — no video call, no obligation, just a couple of quick questions.</p>
+      <ul class="check-list">
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Takes less than 2 minutes</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>No video call required at this stage</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>We follow up by phone, not email spam</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--surface-2);" id="call">
+    <div class="container" style="max-width:680px;margin:0 auto;">
+      <div class="eyebrow">Step 2</div>
+      <h2>We Call You With Your Plan</h2>
+      <p>A real SmileArc team member reviews your case and calls you directly — not an automated quote — to walk through your options and recommend the plan that fits your smile.</p>
+      <ul class="check-list">
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>A real phone call, not a bot</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>We recommend the plan that fits your case</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Ask any questions before committing to anything</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="deposit">
+    <div class="container" style="max-width:680px;margin:0 auto;">
+      <div class="eyebrow">Step 3</div>
+      <h2>Reserve Your Kit With 40% Down</h2>
+      <p>Once you're ready to move forward, a small 40% deposit reserves your treatment plan and gets your impression kit on its way. The remaining balance isn't due until your aligners are ready to ship.</p>
+      <ul class="check-list">
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>40% down reserves your spot</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Remaining balance due only when aligners ship</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Secure, phone-based payment — no online checkout</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--surface-2);" id="kit">
+    <div class="container split">
+      <div>
+        <div class="eyebrow">Step 4</div>
+        <h2>Your Impression Kit Arrives</h2>
+        <p>As soon as your deposit is confirmed, we ship your precision at-home impression kit — everything you need to capture your bite from your kitchen table, no dental office required.</p>
+        <ul class="check-list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Impression trays, putty, and an instruction card included</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Prepaid return shipping label included</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Photo shows exactly what arrives at your door</li>
+        </ul>
+      </div>
+      <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1674734198544-dc8dda539076?q=80&w=1000&auto=format&fit=crop" alt="SmileArc at-home impression kit, open, showing the trays, putty tube, and instruction card inside">
+    </div>
+  </section>
+
+  <section class="section" id="video">
+    <div class="container" style="max-width:680px;margin:0 auto;">
+      <div class="eyebrow">Step 5</div>
+      <h2>Live Video Call Once Your Kit Arrives</h2>
+      <p>Once your kit is in hand, we'll book a live video call on Google Meet or Zoom to walk you through capturing your impressions step-by-step, in real time.</p>
+      <ul class="check-list">
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Live video call, about 15 minutes</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Meet on Google Meet or Zoom — whichever you prefer</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>We guide you through your impressions live, start to finish</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1662837625421-5fd8ed6131a0?q=80&w=1000&auto=format&fit=crop" alt="Orthodontist reviewing a digital treatment plan with a patient">
+      <div>
+        <div class="eyebrow">Step 6</div>
+        <h2>Your Plan Is Built By A Licensed Orthodontist</h2>
+        <p>A US-licensed orthodontist reviews your impressions and designs a custom treatment plan — mapping out every tooth movement from your first aligner to your last. You'll get a 3D preview of your projected results before your aligners are made.</p>
+        <ul class="check-list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>See your projected new smile in 3D</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Confirm your final treatment details</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Adjust the plan before manufacturing begins</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--surface-2);">
+    <div class="container split">
+      <div>
+        <div class="eyebrow">Step 7</div>
+        <h2>Wear, Track, And Watch Your Smile Change</h2>
+        <p>Once your plan is approved, we collect your remaining balance and your full set of custom aligners ships to your door. Wear each tray 20–22 hours a day, switch to the next set every 1–2 weeks, and check in with your care team through the SmileArc app as often as you need.</p>
+        <ul class="check-list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Progress photo check-ins built into the app</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Unlimited messaging with your care team</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Custom retainers to protect your results</li>
+        </ul>
+      </div>
+      <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1609840113929-b130355987e1?q=80&w=1000&auto=format&fit=crop" alt="Close-up of a clear aligner tray">
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="max-width:640px;">
+      <div class="center" style="margin-bottom:36px;">
+        <div class="eyebrow">Ready When You Are</div>
+        <h2>Tell Us About Your Smile</h2>
+        <p class="lede" style="margin:0 auto;">Answer a couple of quick questions — a member of our team will call you directly within one business day with your options. No video call, no payment required yet.</p>
+      </div>
+      <form data-real-submit action="https://formsubmit.co/ajax/mrleo3356@gmail.com" method="POST" class="card">
+        <input type="hidden" name="_subject" value="New smile goal submission — call requested">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="form-row">
+          <div class="field"><label>First Name</label><input type="text" name="First Name" required placeholder="Jordan"></div>
+          <div class="field"><label>Last Name</label><input type="text" name="Last Name" required placeholder="Lee"></div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label>Email</label><input type="email" name="email" required placeholder="jordan@email.com"></div>
+          <div class="field"><label>Phone</label><input type="tel" name="Phone" required placeholder="(555) 555-0100"></div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label>What's your main smile goal?</label>
+            <select name="Smile Goal">
+              <option>Fix crowding or crooked teeth</option>
+              <option>Close a gap</option>
+              <option>Correct my bite</option>
+              <option>Just want a general check</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Best time to call</label>
+            <select name="Best Time To Call">
+              <option>Morning</option>
+              <option>Afternoon</option>
+              <option>Evening</option>
+              <option>Anytime</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label>Anything else we should know? <span class="opt">(optional)</span></label><textarea name="Message" placeholder="Tell us more about your teeth or what you're hoping to fix — this helps our team prep before they call."></textarea></div>
+        <label class="consent-check">
+          <input type="checkbox" name="Consent to be called/texted" required>
+          <span>I agree to be contacted by phone, text, or email by SmileArc with my treatment options. No payment is required yet. Message and data rates may apply.</span>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block btn-lg">Submit — Get A Call Back</button>
+        <div class="form-success"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Thanks! A SmileArc team member will call you directly within one business day with your treatment options.</div>
+        <div class="form-error"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>We couldn't send that just now — please call us at (819) 486-1483 and our team will take your details directly.</div>
+      </form>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--surface-2);">
+    <div class="container center" style="margin-bottom:20px;">
+      <div class="eyebrow">Common Questions</div>
+      <h2>Quick Answers About The Process</h2>
+    </div>
+    <div class="container" style="max-width:760px;">
+      <div class="faq-item open">
+        <div class="faq-q">Does the at-home kit hurt or feel uncomfortable?<span class="fplus">+</span></div>
+        <div class="faq-a"><p>No — the impression kit uses a soft, single-use tray with a fast-setting material. Most members finish both impressions in under 10 minutes with the included video guide.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What if my case is too complex for aligners?<span class="fplus">+</span></div>
+        <div class="faq-a"><p>Your intake and impressions are reviewed by a licensed orthodontist before any plan is built. If SmileArc isn't the right fit, we'll tell you upfront and won't charge you anything.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How often do I talk to my care team?<span class="fplus">+</span></div>
+        <div class="faq-a"><p>As often as you'd like. You get unlimited in-app messaging plus scheduled photo check-ins throughout treatment, and can request a live video call any time.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How does the 40% deposit work?<span class="fplus">+</span></div>
+        <div class="faq-a"><p>A 40% deposit reserves your plan and starts your impression kit on its way. The remaining 60% isn't charged until your aligners are approved and ready to ship.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">When does the video call happen?<span class="fplus">+</span></div>
+        <div class="faq-a"><p>After your impression kit arrives at your door. We'll walk you through capturing your impressions live on Google Meet or Zoom — there's no video call before that.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band">
+        <div>
+          <h2>Curious What SmileArc Costs?</h2>
+          <p>Compare plans, monthly payment options, and what's included.</p>
+        </div>
+        <div class="cta-side">
+          <a href="pricing.html" class="btn btn-gold btn-lg">View Pricing &amp; Plans</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand"><span class="mark" style="width:32px;height:32px;font-size:.9rem;">✦</span>SmileArc Aligners</div>
+        <p style="color:#c9bfe0;font-size:.9rem;max-width:280px;">Doctor-directed clear aligners, designed by licensed US orthodontists and delivered to your door.</p>
+        <div class="foot-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="pricing.html">Pricing &amp; Plans</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Support</h5>
+        <ul>
+          <li><a href="contact.html#faq">FAQs</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="pricing.html#financing">Financing</a></li>
+          <li><a href="about.html#clinical">Our Clinical Team</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Get In Touch</h5>
+        <ul class="foot-contact">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>PO Box 7099, Madison, WI 53707</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>(819) 486-1483</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>hello@smilearcaligners.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 SmileArc Aligners. All rights reserved.</div>
+      <div class="foot-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+    </div>
+  </div>
+</footer>
+
+<button class="fab" aria-label="Contact us">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+</button>
+<div class="fab-panel">
+  <h4>Talk to SmileArc</h4>
+  <p>We usually reply in a few minutes.</p>
+  <div class="fab-row">
+    <div class="fi"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+    <div class="ft"><b>Call us</b>(819) 486-1483</div>
+  </div>
+  <div class="fab-row">
+    <div class="fi"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></div>
+    <div class="ft"><b>Email us</b>hello@smilearcaligners.com</div>
+  </div>
+  <a href="contact.html" class="btn btn-primary btn-block" style="margin-top:8px;">Message Us</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
